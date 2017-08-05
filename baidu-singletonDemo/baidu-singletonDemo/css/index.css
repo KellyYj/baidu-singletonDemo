@@ -1,0 +1,215 @@
+body{
+    font-size: 14px;
+
+}
+ul li{
+    list-style: none;
+}
+
+.container{margin:0;padding:0;width: 100%}
+.con_head{float: right;}
+.con_head_cont{}
+.con_head_cont:after{
+    content: "";
+    height: 0;
+    display: block;visibility: hidden;
+    clear: both;
+}
+.con_head_cont ul li{
+    float: left;
+    margin-left:20px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.con_head_cont ul li a{color: #333333;}
+.con_head_cont ul li a:hover{color: #3385FF;}
+.con_head_cont ul li.login_user,.con_head_cont ul li.login_set{
+    font-weight: 100;
+}
+.con_head_cont ul li.login_prod{  background: #38f;  width: 78px;  font-weight: 100;text-align: center;  }
+.con_head_cont ul li.login_prod a{  text-decoration: none;  color:#fff;  }
+
+#moredProd_panel{
+    display: none;
+}
+/*右侧导航*/
+.scroll_cont{
+    min-height: 900px;
+    height: auto;
+    background: #F9F9F9;
+    width: 85px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.scroll_cont_top{height: 43px;line-height: 43px; padding-top:9px;margin:0 auto; text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    width: 66px;
+}
+.scroll_cont_buttom{
+    position: relative;
+}
+.scroll_cont_buttom_con a{
+    text-align: center;
+    width: 66px;
+    display: block;
+    margin:0 auto;
+    height: 76px;
+    border-bottom: 1px solid #f0f0f0;
+    color:#666;
+    text-decoration: none;
+    overflow: hidden;
+}
+.icon{
+    background: url("../img/index.png") no-repeat;
+    display: block;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin:10px auto 5px;
+}
+.icon1_1{
+    background-position: 0 0;
+}
+.icon1_2{background-position: -72px 0;width: 40px}
+.icon1_3{background-position: -112px 0;}
+.icon1_4{background-position: -36px 0;}
+.icon1_5{background-position: -148px 0;}
+.icon1_6{background-position: -184px 0;}
+
+.fullProd{
+    margin-top:15px;
+    height: 30px;
+    width: 85px;
+    overflow: hidden;
+    text-align: center;
+}
+.fullProd a{
+    color:#666;
+    text-decoration: underline;
+}
+/*center css start*/
+.con_center{  position: relative; text-align: center;
+    margin-top:10%;
+}
+.con_conten_myInde{
+    position: relative; text-align: center;
+    margin-top:2%;
+}
+
+.logImg img{width: 270px;height: 129px;}
+.s_inp{
+    width: 526px;height: 22px;font:16px/18px arial;
+    line-height: 22\9;
+    margin:6px 0 0 7px;
+    padding:0;
+    background: transparent;
+    outline: 0;
+    -webkit-appearance: none;
+    border: none;
+}
+.s_form_text{
+    position: relative;
+    height:34px;
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    width: 539px;
+    vertical-align: top;
+    margin-right: 0;
+    border-right-width:0 ;
+    border-color:#b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+.s_form_buttom{
+    width: 97px;
+    height:34px;display: inline-block;
+    background-position: -120px -48px;
+    z-index: 0;
+    vertical-align: top;
+
+}
+.su{
+    width: 100px;height: 36px;font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385FF;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-bottom: 1px solid #2d78f4;border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.s_camera{
+    z-index: 1;
+    background: url("../img/camera_new_5606e8f.png") no-repeat;
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    /*margin-top:-8px;*/
+    display: inline-block;
+    height: 18px;
+    background: #fff;cursor: pointer;
+}
+.s_camera:hover{
+    background-position: 0 -20px;
+}
+
+/*footer*/
+.con_footer:after{
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.con_footer{
+    height: 150px;
+    position: absolute;
+    bottom: 47px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.con_footer_cont{
+    font-size: 12px;
+    text-align: center;
+}
+.con_fot_a{
+    margin-top:22px;
+}
+.con_fot_a a{
+    color:#999999;
+    text-decoration: underline;
+    margin-left:15px;
+}
+.con_fot_sapna{
+    color:#999999;
+    margin-top:10px;
+}
+.con_fot_sapna a{
+    color:#999999;
+    text-decoration: underline;
+}
+.bg{
+    background: url("../img/icons_5859e57.png") no-repeat;
+    width: 14px;
+    height: 17px;
+    overflow: hidden;
+    display: inline-block;
+}
+.bg_icon{
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+.bg_icon2{
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
